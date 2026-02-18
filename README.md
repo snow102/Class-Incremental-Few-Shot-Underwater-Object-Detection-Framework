@@ -58,3 +58,5 @@ Install PyTorch:
 
 ```bash
 pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+### Evaluation
+python fs_nwpu/test_fasterrcnn.py --config-file configs/NWPU/split1/inc/10shot_INC_CLP.yml --eval-only
