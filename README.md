@@ -62,4 +62,4 @@ pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 --index-url https://dow
 
 ### Evaluation
 
-python fs_ruod/test_fasterrcnn.py --config-file configs/RUOD/split1/inc/10shot_INC_CLP.yml --eval-only
+python test_fasterrcnn.py --config-file configs/RUOD/split1/inc/10shot_INC_CLP.yml --eval-only
